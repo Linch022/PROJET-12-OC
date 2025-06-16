@@ -1,12 +1,12 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Bonjour",
+      "description": "Je suis Nicolas Berthollet, Développeur Front-End. Je travaille sur JavaScript et React, j'ai fait une formation développeur web FullStack JavaScript en 2022-2023 et une formation intégrateur web en 2024-2025. Je suis à la recherche d'une alternance pour la rentrée 2025 en tant que développeur d'application JavaScript à Lyon.",
       "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
+        "about": "à propos de moi",
+        "projects": "Projets",
+        "skills": "Compétences",
+        "experience": "Formations"
       }
     },
     "projects": [
@@ -81,37 +81,37 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "OpenClassrooms",
+        "title": "Intégrateur Web",
+        "years": "09/24 - 06/25",
         "mainTech": [
-          "Angular 8/9/10"
+          "React"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "CSS",
+          "SCSS",
+          "React",
+          "Gestion de projet",
+          "HTML"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Wild Code School",
+        "title": "Developpeur FullStack",
+        "years": "09/22 - 06/23",
         "mainTech": [
           "Angular 7/8"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "HTML",
+          "CSS",
           "JavaScript",
-          "DHTMLX Gantt"
+          "React",
+          "NodeJS",
+          "ExpressJS",
+          "MySQL"
         ]
       }
     ]
