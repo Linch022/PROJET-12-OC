@@ -75,26 +75,27 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Kasa",
+        "startDate": "2025",
+        "description": "Kasa est un projet réalisé dans le cadre de ma formation, dans un contexte proche du milieu professionnel. L’objectif était de développer l’interface front-end d’une application de location immobilière en utilisant React. Ce projet m’a permis de mettre en pratique mes compétences en développement d’interfaces dynamiques, en gestion des routes avec React Router.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/Kasa/p1.png",
+          "images/portfolio/Kasa/p2.png",
+          "images/portfolio/Kasa/p3.png"
         ],
-        "url": "https://github.com",
+        "url": "https://linch022.github.io/Projet7-OC/#/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-css3-plain",
+            "name": "CSS"
           }
         ]
       },
