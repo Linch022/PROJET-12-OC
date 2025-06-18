@@ -19,6 +19,7 @@
           "images/portfolio/pokedex/p2.png"
         ],
         "url": "https://prof-linch-pokedex.netlify.app/",
+        "github": "https://github.com/Linch022/pokedex",
         "technologies": [
           {
             "class": "devicon-react-original",
