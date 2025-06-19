@@ -91,7 +91,13 @@ class About extends Component {
 										<span className='wave'>{hello} :) </span>
 										<br />
 										<br />
-										{about}
+										{about &&
+											about.split("\n").map((line, index) => (
+												<React.Fragment key={index}>
+													{line}
+													<br />
+												</React.Fragment>
+											))}
 									</div>
 								</div>
 							</div>
