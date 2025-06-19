@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Bonjour",
-      "description": "Je suis Nicolas Berthollet, Développeur Front-End. Je travaille sur JavaScript et React, j'ai fait une formation développeur web FullStack JavaScript en 2022-2023 et une formation intégrateur web en 2024-2025. Je suis à la recherche d'une alternance pour la rentrée 2025 en tant que développeur d'application JavaScript à Lyon.",
+      "description": "Je suis Nicolas Berthollet, Développeur Front-End spécialisé en JavaScript et React. \n Après une formation développeur web FullStack JavaScript au sein de la Wild Code School en 2022-2023 et une formation intégrateur web au sein d'OpenClassrooms en 2024-2025. \n Je suis à la recherche d'une alternance en tant que développeur d'application JavaScript à Lyon, pour la rentrée 2025.",
       "section_name": {
         "about": "à propos de moi",
         "projects": "Projets",
@@ -13,7 +13,7 @@
       {
         "title": "Oustal Restaurant",
         "startDate": "2025",
-        "description": "Projet professionnel réalisé pour un Restaurant Lyonnais. L'objectif du site était de créer pour le restaurateur une vitrine qui présente sont restaurant et ses cartes. Il permet également d'avoir un accès à son outil de réservation.",
+        "description": "Projet professionnel réalisé pour un Restaurant Lyonnais. \n L'objectif du site était de créer pour le restaurateur une vitrine qui présente sont restaurant et ses cartes. Il permet également d'avoir un accès à son outil de réservation.",
         "images": [
           "images/portfolio/oustal/p1.png"
         ],
@@ -26,13 +26,17 @@
           {
             "class": "devicon-css3-plain",
             "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           }
         ]
       },
       {
         "title": "Argent Bank",
         "startDate": "2025",
-        "description": "Argent Bank est un projet réalisé dans le cadre de ma formation, dans un contexte proche du milieu professionnel. L’objectif était d'intégrer le front-end avec le back-end d’une application bancaire en utilisant React, Redux et des appels API. Il fallait écrire les appels à l'API REST pour connecter les deux parties de l'application.",
+        "description": "Argent Bank est un projet réalisé dans le cadre de ma formation, dans un contexte proche du milieu professionnel. \n L’objectif était d'intégrer le front-end avec le back-end d’une application bancaire en utilisant React, Redux et des appels API. Il fallait écrire les appels à l'API REST pour connecter les deux parties de l'application.",
         "images": [
           "images/portfolio/argentbank/p1.png",
           "images/portfolio/argentbank/p2.png",
@@ -54,7 +58,7 @@
       {
         "title": "724 Events",
         "startDate": "2025",
-        "description": "Argent Bank est un projet réalisé dans le cadre de ma formation, dans un contexte proche du milieu professionnel. L'objectif était d'analyser le code fait par le précédent développeur puis d'analyser et comprendre les problèmes et bugs signalés. Ensuite j'étais chargé de les résoudre en utilisant mes compétences en Javascript et React. Je me suis appuyé sur des outils tels que React Developer Tools et Jest pour les tests unitaires. J'ai ensuite compléter le cahier de recette incluant des scénarios de test unitaires et fonctionnels.",
+        "description": "Argent Bank est un projet réalisé dans le cadre de ma formation, dans un contexte proche du milieu professionnel. \n L'objectif était d'analyser le code fait par le précédent développeur puis d'analyser et comprendre les problèmes et bugs signalés. \n Ensuite j'étais chargé de les résoudre en utilisant mes compétences en Javascript et React. Je me suis appuyé sur des outils tels que React Developer Tools et Jest pour les tests unitaires. J'ai ensuite compléter le cahier de recette incluant des scénarios de test unitaires et fonctionnels.",
         "images": [
           "images/portfolio/724events/p1.png",
           "images/portfolio/724events/p2.png",
@@ -80,7 +84,7 @@
             {
         "title": "Kasa",
         "startDate": "2025",
-        "description": "Kasa est un projet réalisé dans le cadre de ma formation, dans un contexte proche du milieu professionnel. L’objectif était de développer l’interface front-end d’une application de location immobilière en utilisant React. Ce projet m’a permis de mettre en pratique mes compétences en développement d’interfaces dynamiques, en gestion des routes avec React Router.",
+        "description": "Kasa est un projet réalisé dans le cadre de ma formation, dans un contexte proche du milieu professionnel. \n L’objectif était de développer l’interface front-end d’une application de location immobilière en utilisant React. \n Ce projet m’a permis de mettre en pratique mes compétences en développement d’interfaces dynamiques, en gestion des routes avec React Router.",
         "images": [
           "images/portfolio/Kasa/p1.png",
           "images/portfolio/Kasa/p2.png",
@@ -106,7 +110,7 @@
       {
         "title": "Portfolio",
         "startDate": "2023",
-        "description": "Un projet personnel fait en parallèle de ma formation développeur web FullStack. Cette version de mon portfolio est un projet ou j'ai mis en pratique les compétences en CSS que j'ai apprise lors de ma formation.",
+        "description": "Un projet personnel fait en parallèle de ma formation développeur web FullStack. Cette version de mon portfolio est un projet ou j'ai mis en pratique les compétences en React, Javascript et CSS que j'ai apprises lors de ma formation.",
         "images": [
           "images/portfolio/portfolio-v2/p1.png",
           "images/portfolio/portfolio-v2/p2.png",
@@ -126,27 +130,27 @@
           {
             "class": "devicon-css3-plain",
             "name": "CSS"
+          }
+        ]
+      },
+      {
+        "title": "Projet Pokedex",
+        "startDate": "2023",
+        "description": "Un projet personnel fait en parallèle de ma formation développeur web FullStack. \n Ce Pokedex a été créé en React et en utilisant l'API mis à disposition par Pokebuild. Il y a des fonctionnalité de recherche, de filtrage et d'ajout en favoris",
+        "images": [
+          "images/portfolio/pokedex/p1.png",
+          "images/portfolio/pokedex/p2.png"
+        ],
+        "url": "https://prof-linch-pokedex.netlify.app/",
+        "github": "https://github.com/Linch022/pokedex",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "title": "Projet Pokedex",
-            "startDate": "2023",
-            "description": "Un projet personnel fait en parallèle de ma formation développeur web FullStack. Ce Pokedex a été créé en React et en utilisant l'API mis à disposition par Pokebuild. Il y a des fonctionnalité de recherche, de filtrage et d'ajout en favoris",
-            "images": [
-              "images/portfolio/pokedex/p1.png",
-              "images/portfolio/pokedex/p2.png"
-            ],
-            "url": "https://prof-linch-pokedex.netlify.app/",
-            "github": "https://github.com/Linch022/pokedex",
-            "technologies": [
-              {
-                "class": "devicon-react-original",
-                "name": "React"
-              },
-              {
-                "class": "devicon-javascript-plain",
-                "name": "JavaScript"
-              }
-            ]
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           }
         ]
       }
@@ -155,7 +159,7 @@
       {
         "company": "OpenClassrooms",
         "title": "Intégrateur Web",
-        "years": "09/24 - 06/25",
+        "years": "Septembre 2024 - Juin 2025",
         "mainTech": [
           "React"
         ],
@@ -173,7 +177,7 @@
       {
         "company": "Wild Code School",
         "title": "Developpeur FullStack",
-        "years": "09/22 - 06/23",
+        "years": "Septembre 2022 - Juin 2023",
         "mainTech": [
           "React"
         ],
