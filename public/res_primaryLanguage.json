@@ -41,6 +41,7 @@
           "images/portfolio/portfolio-v2/p3.png"
         ],
         "url": "https://portfolio-nicolas-berthollet.netlify.app/",
+        "github": "https://github.com/Linch022/portfolio-react/tree/main/src",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -85,6 +86,7 @@
           "images/portfolio/Kasa/p3.png"
         ],
         "url": "https://linch022.github.io/Projet7-OC/#/",
+        "github": "https://github.com/Linch022/Projet7-OC",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -101,26 +103,24 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Argent Bank",
+        "startDate": "2025",
+        "description": "Kasa est un projet réalisé dans le cadre de ma formation, dans un contexte proche du milieu professionnel. L’objectif était d'intégrer le front-end avec le back-end d’une application bancaire en utilisant React, Redux et des appels API. Il fallait écrire les appels à l'API REST pour connecter les deux parties de l'application.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/argentbank/p1.png",
+          "images/portfolio/argentbank/p2.png",
+          "images/portfolio/argentbank/p3.png",
+          "images/portfolio/argentbank/p4.png"
         ],
-        "url": "https://github.com",
+        "github": "https://github.com/Linch022/ArgentBank-website",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           }
         ]
       },
