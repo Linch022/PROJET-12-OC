@@ -33,7 +33,7 @@ class About extends Component {
 									<img
 										height='250px'
 										src={profilepic}
-										alt='Avatar placeholder'
+										alt='Photo de profile de Nicolas Berthollet'
 										style={{ objectFit: "contain" }}
 									/>
 									<Icon

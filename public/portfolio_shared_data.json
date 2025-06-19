@@ -41,6 +41,16 @@
           "name": "MySql",
           "class": "devicon-mysql-plain",
           "level": "60"
+        },
+        {
+          "name": "NodeJS",
+          "class": "devicon-nodejs-plain",
+          "level": "70"
+        },
+        {
+          "name": "Jest",
+          "class": "devicon-jest-plain",
+          "level": "60"
         }
       ]
     }

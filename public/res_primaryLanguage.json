@@ -172,7 +172,8 @@
           "Gestion de projet",
           "HTML",
           "Jest"
-        ]
+        ],
+        "url": "https://openclassrooms.com/fr/paths/900-integrateur-web"
       },
       {
         "company": "Wild Code School",
@@ -189,7 +190,8 @@
           "NodeJS",
           "ExpressJS",
           "MySQL"
-        ]
+        ],
+        "url": "https://www.wildcodeschool.com/formation-developpeur-web-full-stack"
       }
     ]
   }

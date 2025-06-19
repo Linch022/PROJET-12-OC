@@ -33,7 +33,7 @@ class Projects extends Component {
 								<div>
 									<img
 										src={projects.images[0]}
-										alt='projectImages'
+										alt='Photo de projet'
 										height='230'
 										style={{
 											marginBottom: 0,
@@ -64,6 +64,12 @@ class Projects extends Component {
 					>
 						<span>{sectionName}</span>
 					</h2>
+					<p className='section-pres'>
+						Voici une sélection de projets que j'ai réalisés au cours de ma
+						formations et de mes expériences personnelles. <br />
+						Chaque projet m'a permis de renforcer mes compétences en
+						développement front-end, en particulier avec JavaScript et React.
+					</p>
 					<div className='col-md-12 mx-auto'>
 						<div className='row mx-auto'>{projects}</div>
 					</div>

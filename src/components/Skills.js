@@ -37,6 +37,12 @@ class Skills extends Component {
 						<h2 className='section-title'>
 							<span className='text-white'>{sectionName}</span>
 						</h2>
+						<p className='section-pres'>
+							Voici les compétences que j'ai acquises au cours de mon
+							apprentissage du développement web. <br /> J'ai également pu
+							développer des compétences en SEO, accessibilité et gestion de
+							projet.
+						</p>
 					</div>
 					<div className='col-md-12 text-center'>
 						<ul className='list-inline mx-auto skill-icon'>{skills}</ul>

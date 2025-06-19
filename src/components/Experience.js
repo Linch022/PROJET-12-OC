@@ -14,6 +14,7 @@ class Experience extends Component {
 				const technologies = work.technologies;
 				const mainTechnologies = work.mainTech;
 				var techIcon = work.mainTech[0].toLowerCase();
+				var url = work.url;
 
 				var mainTech = mainTechnologies.map((technology, i) => {
 					return (
@@ -58,6 +59,19 @@ class Experience extends Component {
 							style={{ textAlign: "left" }}
 						>
 							{work.title}
+							{url ? (
+								<a
+									href={url}
+									target='_blank'
+									rel='noopener noreferrer'
+									className='link-href'
+								>
+									<i
+										className='fas fa-external-link-alt'
+										style={{ marginLeft: "10px" }}
+									></i>
+								</a>
+							) : null}
 						</h3>
 						<h4
 							className='vertical-timeline-element-subtitle'
