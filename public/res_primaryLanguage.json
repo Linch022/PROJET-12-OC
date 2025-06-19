@@ -105,7 +105,7 @@
       {
         "title": "Argent Bank",
         "startDate": "2025",
-        "description": "Kasa est un projet réalisé dans le cadre de ma formation, dans un contexte proche du milieu professionnel. L’objectif était d'intégrer le front-end avec le back-end d’une application bancaire en utilisant React, Redux et des appels API. Il fallait écrire les appels à l'API REST pour connecter les deux parties de l'application.",
+        "description": "Argent Bank est un projet réalisé dans le cadre de ma formation, dans un contexte proche du milieu professionnel. L’objectif était d'intégrer le front-end avec le back-end d’une application bancaire en utilisant React, Redux et des appels API. Il fallait écrire les appels à l'API REST pour connecter les deux parties de l'application.",
         "images": [
           "images/portfolio/argentbank/p1.png",
           "images/portfolio/argentbank/p2.png",
@@ -125,26 +125,28 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "724 Events",
+        "startDate": "2025",
+        "description": "Argent Bank est un projet réalisé dans le cadre de ma formation, dans un contexte proche du milieu professionnel. L'objectif était d'analyser le code fait par le précédent développeur puis d'analyser et comprendre les problèmes et bugs signalés. Ensuite j'étais chargé de les résoudre en utilisant mes compétences en Javascript et React. Je me suis appuyé sur des outils tels que React Developer Tools et Jest pour les tests unitaires. J'ai ensuite compléter le cahier de recette incluant des scénarios de test unitaires et fonctionnels.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/724events/p1.png",
+          "images/portfolio/724events/p2.png",
+          "images/portfolio/724events/p3.png",
+          "images/portfolio/724events/p4.png"
         ],
-        "url": "https://github.com",
+        "github": "https://github.com/Linch022/Projet9-OC",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-jest-plain",
+            "name": "Jest"
           }
         ]
       }
@@ -164,7 +166,8 @@
           "SCSS",
           "React",
           "Gestion de projet",
-          "HTML"
+          "HTML",
+          "Jest"
         ]
       },
       {
@@ -172,7 +175,7 @@
         "title": "Developpeur FullStack",
         "years": "09/22 - 06/23",
         "mainTech": [
-          "Angular 7/8"
+          "React"
         ],
         "technologies": [
           "HTML",
