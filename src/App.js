@@ -36,32 +36,32 @@ class App extends Component {
 	}
 
 	loadResumeFromPath(path) {
-		$.ajax({
-			url: path,
-			dataType: "json",
-			cache: false,
-			success: function (data) {
+		fetch(path)
+			.then((res) => {
+				if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+				return res.json();
+			})
+			.then((data) => {
 				this.setState({ resumeData: data });
-			}.bind(this),
-			error: function (xhr, status, err) {
+			})
+			.catch((err) => {
 				alert(err);
-			},
-		});
+			});
 	}
-
 	loadSharedData() {
-		$.ajax({
-			url: `portfolio_shared_data.json`,
-			dataType: "json",
-			cache: false,
-			success: function (data) {
+		const path = `${process.env.PUBLIC_URL}/portfolio_shared_data.json`;
+		fetch(path)
+			.then((res) => {
+				if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+				return res.json();
+			})
+			.then((data) => {
 				this.setState({ sharedData: data });
-				document.title = `${this.state.sharedData.basic_info.name}`;
-			}.bind(this),
-			error: function (xhr, status, err) {
+				document.title = `${data.basic_info.name}`;
+			})
+			.catch((err) => {
 				alert(err);
-			},
-		});
+			});
 	}
 
 	render() {
