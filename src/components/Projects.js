@@ -44,9 +44,9 @@ class Projects extends Component {
 									/>
 									<span className='project-date'>{projects.startDate}</span>
 									<br />
-									<p className='project-title-settings mt-3'>
+									<h3 className='project-title-settings mt-3'>
 										{projects.title}
-									</p>
+									</h3>
 								</div>
 							</div>
 						</span>
@@ -58,12 +58,12 @@ class Projects extends Component {
 		return (
 			<section id='portfolio'>
 				<div className='col-md-12 content-container'>
-					<h1
+					<h2
 						className='section-title'
 						style={{ color: "black" }}
 					>
 						<span>{sectionName}</span>
-					</h1>
+					</h2>
 					<div className='col-md-12 mx-auto'>
 						<div className='row mx-auto'>{projects}</div>
 					</div>

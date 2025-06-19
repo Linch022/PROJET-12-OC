@@ -78,7 +78,7 @@ class Experience extends Component {
 			>
 				<div className='col-md-12 mx-auto'>
 					<div className='col-md-12'>
-						<h1
+						<h2
 							className='section-title'
 							style={{ color: "black" }}
 						>
@@ -88,7 +88,7 @@ class Experience extends Component {
 							>
 								{sectionName}
 							</span>
-						</h1>
+						</h2>
 					</div>
 				</div>
 				<div className='col-md-8 mx-auto'>

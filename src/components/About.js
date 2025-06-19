@@ -20,9 +20,12 @@ class About extends Component {
 		return (
 			<section id='about'>
 				<div className='col-md-12 content-container'>
-					<h1 style={{ color: "black" }}>
+					<h2
+						className='section-title'
+						style={{ color: "black" }}
+					>
 						<span>{sectionName}</span>
-					</h1>
+					</h2>
 					<div className='row center mx-auto mb-5'>
 						<div className='col-md-4 mb-5 center'>
 							<div className='polaroid'>
