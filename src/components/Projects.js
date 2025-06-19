@@ -39,7 +39,7 @@ class Projects extends Component {
 											marginBottom: 0,
 											paddingBottom: 0,
 											position: "relative",
-											objectFit: "cover",
+											objectFit: "contain",
 										}}
 									/>
 									<span className='project-date'>{projects.startDate}</span>

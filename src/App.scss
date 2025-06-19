@@ -331,6 +331,10 @@ header h1 {
 	outline: none !important;
 }
 
+.awssld__content img {
+	object-fit: contain;
+}
+
 .loader-bar-color {
 	color: black !important;
 }
