@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Linch022/PROJET-12-OC/static/css/main.200cd0a6.chunk.css",
-    "main.js": "/Linch022/PROJET-12-OC/static/js/main.b975b80e.chunk.js",
-    "main.js.map": "/Linch022/PROJET-12-OC/static/js/main.b975b80e.chunk.js.map",
-    "runtime-main.js": "/Linch022/PROJET-12-OC/static/js/runtime-main.0067afe0.js",
-    "runtime-main.js.map": "/Linch022/PROJET-12-OC/static/js/runtime-main.0067afe0.js.map",
-    "static/css/2.f26574f6.chunk.css": "/Linch022/PROJET-12-OC/static/css/2.f26574f6.chunk.css",
-    "static/js/2.6467c97e.chunk.js": "/Linch022/PROJET-12-OC/static/js/2.6467c97e.chunk.js",
-    "static/js/2.6467c97e.chunk.js.map": "/Linch022/PROJET-12-OC/static/js/2.6467c97e.chunk.js.map",
-    "index.html": "/Linch022/PROJET-12-OC/index.html",
-    "precache-manifest.5cb60973f76272abe88e6e8e2e3d7252.js": "/Linch022/PROJET-12-OC/precache-manifest.5cb60973f76272abe88e6e8e2e3d7252.js",
-    "service-worker.js": "/Linch022/PROJET-12-OC/service-worker.js",
-    "static/css/2.f26574f6.chunk.css.map": "/Linch022/PROJET-12-OC/static/css/2.f26574f6.chunk.css.map",
-    "static/css/main.200cd0a6.chunk.css.map": "/Linch022/PROJET-12-OC/static/css/main.200cd0a6.chunk.css.map",
-    "static/js/2.6467c97e.chunk.js.LICENSE.txt": "/Linch022/PROJET-12-OC/static/js/2.6467c97e.chunk.js.LICENSE.txt"
+    "main.css": "/PROJET-12-OC/static/css/main.200cd0a6.chunk.css",
+    "main.js": "/PROJET-12-OC/static/js/main.a3932e93.chunk.js",
+    "main.js.map": "/PROJET-12-OC/static/js/main.a3932e93.chunk.js.map",
+    "runtime-main.js": "/PROJET-12-OC/static/js/runtime-main.c4f3df21.js",
+    "runtime-main.js.map": "/PROJET-12-OC/static/js/runtime-main.c4f3df21.js.map",
+    "static/css/2.f26574f6.chunk.css": "/PROJET-12-OC/static/css/2.f26574f6.chunk.css",
+    "static/js/2.6467c97e.chunk.js": "/PROJET-12-OC/static/js/2.6467c97e.chunk.js",
+    "static/js/2.6467c97e.chunk.js.map": "/PROJET-12-OC/static/js/2.6467c97e.chunk.js.map",
+    "index.html": "/PROJET-12-OC/index.html",
+    "precache-manifest.a2df9d4cd7ebce82b63db4315e07580e.js": "/PROJET-12-OC/precache-manifest.a2df9d4cd7ebce82b63db4315e07580e.js",
+    "service-worker.js": "/PROJET-12-OC/service-worker.js",
+    "static/css/2.f26574f6.chunk.css.map": "/PROJET-12-OC/static/css/2.f26574f6.chunk.css.map",
+    "static/css/main.200cd0a6.chunk.css.map": "/PROJET-12-OC/static/css/main.200cd0a6.chunk.css.map",
+    "static/js/2.6467c97e.chunk.js.LICENSE.txt": "/PROJET-12-OC/static/js/2.6467c97e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0067afe0.js",
+    "static/js/runtime-main.c4f3df21.js",
     "static/css/2.f26574f6.chunk.css",
     "static/js/2.6467c97e.chunk.js",
     "static/css/main.200cd0a6.chunk.css",
-    "static/js/main.b975b80e.chunk.js"
+    "static/js/main.a3932e93.chunk.js"
   ]
 }
