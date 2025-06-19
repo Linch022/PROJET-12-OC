@@ -1,0 +1,57 @@
+{
+    "basic_info": {
+      "name": "Nicolas Berthollet",
+      "titles": [ "Développeur Front-End" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/Linch022",
+          "class": "fab fa-github"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original",
+          "level": "75"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain",
+          "level": "60"
+        },
+        {
+          "name": "NodeJS",
+          "class": "devicon-nodejs-plain",
+          "level": "70"
+        },
+        {
+          "name": "Jest",
+          "class": "devicon-jest-plain",
+          "level": "60"
+        }
+      ]
+    }
+  }
