@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import reactIcon from "@iconify/icons-logos/react";
 import javaScriptIcon from "@iconify/icons-logos/javascript";
+import cssIcon from "@iconify/icons-logos/css-3";
+import htmlIcon from "@iconify/icons-logos/html-5";
+import nodejsIcon from "@iconify/icons-logos/nodejs-icon";
 
 class About extends Component {
 	render() {
@@ -28,6 +31,7 @@ class About extends Component {
 										height='250px'
 										src={profilepic}
 										alt='Avatar placeholder'
+										style={{ objectFit: "contain" }}
 									/>
 									<Icon
 										icon={javaScriptIcon}
@@ -35,6 +39,18 @@ class About extends Component {
 									/>
 									<Icon
 										icon={reactIcon}
+										style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+									/>
+									<Icon
+										icon={cssIcon}
+										style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+									/>
+									<Icon
+										icon={htmlIcon}
+										style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+									/>
+									<Icon
+										icon={nodejsIcon}
 										style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
 									/>
 								</span>
