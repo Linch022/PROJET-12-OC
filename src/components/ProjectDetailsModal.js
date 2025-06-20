@@ -22,16 +22,8 @@ class ProjectDetailsModal extends Component {
 						>
 							<span>
 								<div className='text-center'>
-									<i
-										className={icons.class}
-										style={{ fontSize: "300%" }}
-									>
-										<p
-											className='text-center'
-											style={{ fontSize: "30%" }}
-										>
-											{icons.name}
-										</p>
+									<i className={`${icons.class} project-tech-icons`}>
+										<p className='text-center'>{icons.name}</p>
 									</i>
 								</div>
 							</span>
@@ -66,16 +58,12 @@ class ProjectDetailsModal extends Component {
 					<i className='fas fa-times fa-3x close-icon'></i>
 				</button>
 				<div className='col-md-12'>
-					<div
-						className='col-md-10 mx-auto'
-						style={{ paddingBottom: "50px" }}
-					>
+					<div className='col-md-10 mx-auto slider-container'>
 						<div className='slider-tab'>
 							<span
 								className='iconify slider-iconfiy'
 								data-icon='emojione:red-circle'
 								data-inline='false'
-								style={{ marginLeft: "5px" }}
 							></span>{" "}
 							&nbsp;{" "}
 							<span
@@ -100,7 +88,7 @@ class ProjectDetailsModal extends Component {
 						</AwesomeSlider>
 					</div>
 					<div className='col-md-10 mx-auto'>
-						<h3 style={{ padding: "5px 5px 0 5px" }}>
+						<h3 className='modal-title'>
 							{title}
 							{url ? (
 								<a
@@ -109,10 +97,7 @@ class ProjectDetailsModal extends Component {
 									rel='noopener noreferrer'
 									className='link-href'
 								>
-									<i
-										className='fas fa-external-link-alt'
-										style={{ marginLeft: "10px" }}
-									></i>
+									<i className='fas fa-external-link-alt url-link'></i>
 								</a>
 							) : null}
 							{github ? (
@@ -121,10 +106,7 @@ class ProjectDetailsModal extends Component {
 									target='_blank'
 									rel='noopener noreferrer'
 								>
-									<i
-										className='fab fa-github'
-										style={{ marginLeft: "10px", color: "black" }}
-									></i>
+									<i className='fab fa-github github-link'></i>
 								</a>
 							) : null}
 						</h3>
