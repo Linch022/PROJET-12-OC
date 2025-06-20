@@ -521,6 +521,13 @@ footer a:focus {
 	font-size: 40%;
 }
 
+.project-preview {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	position: relative;
+	object-fit: contain;
+}
+
 .slider-container {
 	padding-bottom: 50px;
 }

@@ -31,14 +31,9 @@ class Projects extends Component {
 							>
 								<img
 									src={`${process.env.PUBLIC_URL}/${projects.images[0]}`}
-									alt='Projets'
+									alt=''
 									height='230'
-									style={{
-										marginBottom: 0,
-										paddingBottom: 0,
-										position: "relative",
-										objectFit: "contain",
-									}}
+									className='project-preview'
 								/>
 								<span className='project-date'>{projects.startDate}</span>
 								<br />
@@ -55,10 +50,7 @@ class Projects extends Component {
 		return (
 			<section id='portfolio'>
 				<div className='col-md-12 content-container'>
-					<h2
-						className='section-title'
-						style={{ color: "black" }}
-					>
+					<h2 className='section-title'>
 						<span>{sectionName}</span>
 					</h2>
 					<p className='section-pres'>
