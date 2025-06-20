@@ -47,6 +47,15 @@ header {
 	padding-bottom: 0;
 }
 
+#home {
+	height: calc(100vh - 140px);
+	display: block;
+}
+
+.header-container {
+	height: 100%;
+}
+
 .language-icon {
 	font-size: 50px;
 	cursor: pointer;
@@ -481,5 +490,18 @@ footer a:focus {
 	margin-top: 15px;
 }
 .url-link {
+	margin-left: 10px;
+}
+
+.icon-switch {
+	display: block;
+	height: 100%;
+	font-size: 25px;
+	text-align: end;
+	color: #353239;
+	margin-left: 20px;
+}
+
+.sun-icon-switch {
 	margin-left: 10px;
 }

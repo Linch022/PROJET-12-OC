@@ -30,14 +30,8 @@ class Header extends Component {
 		}
 
 		return (
-			<header
-				id='home'
-				style={{ height: window.innerHeight - 140, display: "block" }}
-			>
-				<div
-					className='row aligner'
-					style={{ height: "100%" }}
-				>
+			<header id='home'>
+				<div className='row aligner header-container'>
 					<div className='col-md-12'>
 						<div>
 							<span
@@ -59,33 +53,17 @@ class Header extends Component {
 								aria-label='Changer le thème'
 								uncheckedIcon={
 									<span
-										className='iconify'
+										className='iconify icon-switch'
 										data-icon='twemoji:owl'
 										data-inline='false'
-										style={{
-											display: "block",
-											height: "100%",
-											fontSize: 25,
-											textAlign: "end",
-											marginLeft: "20px",
-											color: "#353239",
-										}}
 									></span>
 								}
 								checkedIcon={
 									<span
 										aria-label='Bouton pour enlever le mode sombre'
-										className='iconify'
+										className='iconify icon-switch sun-icon-switch'
 										data-icon='noto-v1:sun-with-face'
 										data-inline='false'
-										style={{
-											display: "block",
-											height: "100%",
-											fontSize: 25,
-											textAlign: "end",
-											marginLeft: "10px",
-											color: "#353239",
-										}}
 									></span>
 								}
 								id='icon-switch'
