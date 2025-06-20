@@ -9,7 +9,8 @@ import nodejsIcon from "@iconify/icons-logos/nodejs-icon";
 class About extends Component {
 	render() {
 		if (this.props.sharedBasicInfo) {
-			var profilepic = "images/" + this.props.sharedBasicInfo.image;
+			var profilepic =
+				process.env.PUBLIC_URL + "/images/" + this.props.sharedBasicInfo.image;
 		}
 		if (this.props.resumeBasicInfo) {
 			var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -33,7 +34,7 @@ class About extends Component {
 									<img
 										height='250px'
 										src={profilepic}
-										alt='Photo de profile de Nicolas Berthollet'
+										alt='Nicolas Berthollet'
 										style={{ objectFit: "contain" }}
 									/>
 									<Icon

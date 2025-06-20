@@ -32,8 +32,8 @@ class Projects extends Component {
 							>
 								<div>
 									<img
-										src={projects.images[0]}
-										alt='Photo de projet'
+										src={`${process.env.PUBLIC_URL}/${projects.images[0]}`}
+										alt='Projets'
 										height='230'
 										style={{
 											marginBottom: 0,

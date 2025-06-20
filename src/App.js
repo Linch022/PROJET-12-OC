@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import $ from "jquery";
 import "./App.scss";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -18,30 +17,20 @@ class App extends Component {
 		};
 	}
 
-	applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
-		document.documentElement.lang = pickedLanguage;
-		var resumePath =
-			document.documentElement.lang === window.$primaryLanguage
-				? `res_primaryLanguage.json`
-				: `res_secondaryLanguage.json`;
-		this.loadResumeFromPath(resumePath);
-	}
-
 	componentDidMount() {
 		this.loadSharedData();
-		this.applyPickedLanguage(
-			window.$primaryLanguage,
-			window.$secondaryLanguageIconId
-		);
+		this.loadResumeFromPath();
 	}
 
-	loadResumeFromPath(path) {
+	loadResumeFromPath() {
+		const path = `${process.env.PUBLIC_URL}/res_primaryLanguage.json`;
 		fetch(path)
 			.then((res) => {
 				if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
 				return res.json();
 			})
 			.then((data) => {
+				console.log(data);
 				this.setState({ resumeData: data });
 			})
 			.catch((err) => {
@@ -53,9 +42,13 @@ class App extends Component {
 		fetch(path)
 			.then((res) => {
 				if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+				console.log("erreur");
+
 				return res.json();
 			})
 			.then((data) => {
+				console.log(data);
+
 				this.setState({ sharedData: data });
 				document.title = `${data.basic_info.name}`;
 			})

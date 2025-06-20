@@ -40,10 +40,11 @@ class ProjectDetailsModal extends Component {
 				});
 				if (this.props.data.images) {
 					var img = images.map((elem, i) => {
+						const src = `${process.env.PUBLIC_URL}/${elem}`;
 						return (
 							<div
 								key={i}
-								data-src={elem}
+								data-src={src}
 							/>
 						);
 					});
