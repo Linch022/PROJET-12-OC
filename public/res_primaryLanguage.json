@@ -15,7 +15,7 @@
         "startDate": "2025",
         "description": "Projet professionnel réalisé pour un Restaurant Lyonnais. \n L'objectif du site était de créer pour le restaurateur une vitrine qui présente sont restaurant et ses cartes. Il permet également d'avoir un accès à son outil de réservation.",
         "images": [
-          "images/portfolio/oustal/p1.png"
+          "images/portfolio/oustal/oustal-1.png"
         ],
         "url": "https://www.oustalrestaurant.com/",
         "technologies": [
@@ -38,10 +38,10 @@
         "startDate": "2025",
         "description": "Argent Bank est un projet réalisé dans le cadre de ma formation, dans un contexte proche du milieu professionnel. \n L’objectif était d'intégrer le front-end avec le back-end d’une application bancaire en utilisant React, Redux et des appels API. Il fallait écrire les appels à l'API REST pour connecter les deux parties de l'application.",
         "images": [
-          "images/portfolio/argentbank/p1.png",
-          "images/portfolio/argentbank/p2.png",
-          "images/portfolio/argentbank/p3.png",
-          "images/portfolio/argentbank/p4.png"
+          "images/portfolio/argentbank/argent-bank-1.png",
+          "images/portfolio/argentbank/argent-bank-2.png",
+          "images/portfolio/argentbank/argent-bank-3.png",
+          "images/portfolio/argentbank/argent-bank-4.png"
         ],
         "github": "https://github.com/Linch022/ArgentBank-website",
         "technologies": [
@@ -60,10 +60,10 @@
         "startDate": "2025",
         "description": "Argent Bank est un projet réalisé dans le cadre de ma formation, dans un contexte proche du milieu professionnel. \n L'objectif était d'analyser le code fait par le précédent développeur puis d'analyser et comprendre les problèmes et bugs signalés. \n Ensuite j'étais chargé de les résoudre en utilisant mes compétences en Javascript et React. Je me suis appuyé sur des outils tels que React Developer Tools et Jest pour les tests unitaires. J'ai ensuite compléter le cahier de recette incluant des scénarios de test unitaires et fonctionnels.",
         "images": [
-          "images/portfolio/724events/p1.png",
-          "images/portfolio/724events/p2.png",
-          "images/portfolio/724events/p3.png",
-          "images/portfolio/724events/p4.png"
+          "images/portfolio/724events/724events-1.png",
+          "images/portfolio/724events/724events-2.png",
+          "images/portfolio/724events/724events-3.png",
+          "images/portfolio/724events/724events-4.png"
         ],
         "github": "https://github.com/Linch022/Projet9-OC",
         "technologies": [
@@ -86,9 +86,9 @@
         "startDate": "2025",
         "description": "Kasa est un projet réalisé dans le cadre de ma formation, dans un contexte proche du milieu professionnel. \n L’objectif était de développer l’interface front-end d’une application de location immobilière en utilisant React. \n Ce projet m’a permis de mettre en pratique mes compétences en développement d’interfaces dynamiques, en gestion des routes avec React Router.",
         "images": [
-          "images/portfolio/Kasa/p1.png",
-          "images/portfolio/Kasa/p2.png",
-          "images/portfolio/Kasa/p3.png"
+          "images/portfolio/Kasa/kasa-1.png",
+          "images/portfolio/Kasa/kasa-2.png",
+          "images/portfolio/Kasa/kasa-3.png"
         ],
         "url": "https://linch022.github.io/Projet7-OC/#/",
         "github": "https://github.com/Linch022/Projet7-OC",
@@ -112,9 +112,9 @@
         "startDate": "2023",
         "description": "Un projet personnel fait en parallèle de ma formation développeur web FullStack. Cette version de mon portfolio est un projet ou j'ai mis en pratique les compétences en React, Javascript et CSS que j'ai apprises lors de ma formation.",
         "images": [
-          "images/portfolio/portfolio-v2/p1.png",
-          "images/portfolio/portfolio-v2/p2.png",
-          "images/portfolio/portfolio-v2/p3.png"
+          "images/portfolio/portfolio-v2/portfolio-v2-1.png",
+          "images/portfolio/portfolio-v2/portfolio-v2-2.png",
+          "images/portfolio/portfolio-v2/portfolio-v2-3.png"
         ],
         "url": "https://portfolio-nicolas-berthollet.netlify.app/",
         "github": "https://github.com/Linch022/portfolio-react/tree/main/src",
@@ -138,8 +138,8 @@
         "startDate": "2023",
         "description": "Un projet personnel fait en parallèle de ma formation développeur web FullStack. \n Ce Pokedex a été créé en React et en utilisant l'API mis à disposition par Pokebuild. Il y a des fonctionnalité de recherche, de filtrage et d'ajout en favoris",
         "images": [
-          "images/portfolio/pokedex/p1.png",
-          "images/portfolio/pokedex/p2.png"
+          "images/portfolio/pokedex/pokedex-1.png",
+          "images/portfolio/pokedex/pokedex-2.png"
         ],
         "url": "https://prof-linch-pokedex.netlify.app/",
         "github": "https://github.com/Linch022/pokedex",

@@ -55,7 +55,7 @@ class Projects extends Component {
 					</h2>
 					<p className='section-pres'>
 						Voici une sélection de projets que j'ai réalisés au cours de ma
-						formations et de mes expériences personnelles. <br />
+						formation et de mes expériences personnelles. <br />
 						Chaque projet m'a permis de renforcer mes compétences en
 						développement front-end, en particulier avec JavaScript et React.
 					</p>
