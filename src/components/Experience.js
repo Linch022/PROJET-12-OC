@@ -50,14 +50,9 @@ class Experience extends Component {
 						icon={<i className={`fab fa-${techIcon} experience-icon`}></i>}
 						key={i}
 					>
-						<div style={{ textAlign: "left", marginBottom: "4px" }}>
-							{mainTech}
-						</div>
+						<div className='experience-maintech'>{mainTech}</div>
 
-						<h3
-							className='vertical-timeline-element-title'
-							style={{ textAlign: "left" }}
-						>
+						<h3 className='vertical-timeline-element-title experience-title'>
 							{work.title}
 							{url ? (
 								<a
@@ -66,20 +61,14 @@ class Experience extends Component {
 									rel='noopener noreferrer'
 									className='link-href'
 								>
-									<i
-										className='fas fa-external-link-alt'
-										style={{ marginLeft: "10px" }}
-									></i>
+									<i className='fas fa-external-link-alt url-link'></i>
 								</a>
 							) : null}
 						</h3>
-						<h4
-							className='vertical-timeline-element-subtitle'
-							style={{ textAlign: "left" }}
-						>
+						<h4 className='vertical-timeline-element-subtitle experience-company'>
 							{work.company}
 						</h4>
-						<div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
+						<div className='experience-tech'>{tech}</div>
 					</VerticalTimelineElement>
 				);
 			});
@@ -92,16 +81,8 @@ class Experience extends Component {
 			>
 				<div className='col-md-12 mx-auto'>
 					<div className='col-md-12'>
-						<h2
-							className='section-title'
-							style={{ color: "black" }}
-						>
-							<span
-								className='text-black'
-								style={{ textAlign: "center" }}
-							>
-								{sectionName}
-							</span>
+						<h2 className='section-title'>
+							<span className='text-black'>{sectionName}</span>
 						</h2>
 					</div>
 				</div>
