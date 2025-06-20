@@ -21,41 +21,43 @@ class About extends Component {
 		return (
 			<section id='about'>
 				<div className='col-md-12 content-container'>
-					<h2
-						className='section-title'
-						style={{ color: "black" }}
-					>
+					<h2 className='section-title'>
 						<span>{sectionName}</span>
 					</h2>
 					<div className='row center mx-auto mb-5'>
 						<div className='col-md-4 mb-5 center'>
 							<div className='polaroid'>
-								<span style={{ cursor: "auto" }}>
+								<span>
 									<img
 										height='250px'
 										src={profilepic}
 										alt='Nicolas Berthollet'
-										style={{ objectFit: "contain" }}
+										className='profile-img'
 									/>
 									<Icon
 										icon={javaScriptIcon}
-										style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+										aria-label='JavaScript logo'
+										className='tech-logo'
 									/>
 									<Icon
 										icon={reactIcon}
-										style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+										className='tech-logo'
+										aria-label='React logo'
 									/>
 									<Icon
 										icon={cssIcon}
-										style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+										className='tech-logo'
+										aria-label='CSS logo'
 									/>
 									<Icon
 										icon={htmlIcon}
-										style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+										className='tech-logo'
+										aria-label='Html5 logo'
 									/>
 									<Icon
 										icon={nodejsIcon}
-										style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+										className='tech-logo'
+										aria-label='NodeJS logo'
 									/>
 								</span>
 							</div>
@@ -83,14 +85,7 @@ class About extends Component {
 											data-inline='false'
 										></span>
 									</div>
-									<div
-										className='card-body font-trebuchet ml-3 mr-3'
-										style={{
-											height: "auto",
-											fontSize: "163%",
-											lineHeight: "200%",
-										}}
-									>
+									<div className='card-body font-trebuchet ml-3 mr-3'>
 										<br />
 										<span className='wave'>{hello} :) </span>
 										<br />

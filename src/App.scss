@@ -260,6 +260,9 @@ header h1 {
 }
 
 .modal-inside .modal-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 	background: white;
 }
 
@@ -307,6 +310,9 @@ header h1 {
 }
 
 .modal-close {
+	width: 50px;
+	border: none;
+	background: transparent;
 	text-align: right;
 	padding: 10px 15px 10px 15px;
 	cursor: pointer;
@@ -393,7 +399,7 @@ header h1 {
 	font: 18px/24px "opensans-bold", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: #fff;
+	color: black;
 	text-align: center;
 }
 
@@ -444,4 +450,19 @@ footer a:focus {
 
 #skills .section-pres {
 	color: #fff;
+}
+
+.profile-img {
+	object-fit: contain;
+}
+
+.tech-logo {
+	font-size: 400%;
+	margin: 9% 5% 0 5%;
+}
+
+.card-body {
+	height: auto;
+	font-size: 163%;
+	line-height: 200%;
 }
