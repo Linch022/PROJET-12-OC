@@ -117,7 +117,7 @@ header h1 {
 	width: 100%;
 }
 
-.foto div {
+.foto {
 	background: #ffffff;
 	display: inline-block;
 	margin: 0 auto 5% auto;
@@ -133,9 +133,10 @@ header h1 {
 	z-index: 0;
 	position: relative;
 	width: 90%;
+	border: none;
 }
 
-.foto div:after {
+.foto:after {
 	color: #333;
 	font-size: 25px;
 	content: attr(title);
@@ -143,7 +144,7 @@ header h1 {
 	top: 15px;
 }
 
-.foto div:hover {
+.foto:hover {
 	-webkit-transform: scale(1.01);
 	-moz-transform: scale(1.01);
 	transform: scale(1.01);

@@ -23,32 +23,29 @@ class Projects extends Component {
 					<div
 						className='col-sm-12 col-md-6 col-lg-4'
 						key={projects.title}
-						style={{ cursor: "pointer" }}
 					>
 						<span className='portfolio-item d-block'>
-							<div
+							<button
 								className='foto'
 								onClick={() => detailsModalShow(projects)}
 							>
-								<div>
-									<img
-										src={`${process.env.PUBLIC_URL}/${projects.images[0]}`}
-										alt='Projets'
-										height='230'
-										style={{
-											marginBottom: 0,
-											paddingBottom: 0,
-											position: "relative",
-											objectFit: "contain",
-										}}
-									/>
-									<span className='project-date'>{projects.startDate}</span>
-									<br />
-									<h3 className='project-title-settings mt-3'>
-										{projects.title}
-									</h3>
-								</div>
-							</div>
+								<img
+									src={`${process.env.PUBLIC_URL}/${projects.images[0]}`}
+									alt='Projets'
+									height='230'
+									style={{
+										marginBottom: 0,
+										paddingBottom: 0,
+										position: "relative",
+										objectFit: "contain",
+									}}
+								/>
+								<span className='project-date'>{projects.startDate}</span>
+								<br />
+								<h3 className='project-title-settings mt-3'>
+									{projects.title}
+								</h3>
+							</button>
 						</span>
 					</div>
 				);
